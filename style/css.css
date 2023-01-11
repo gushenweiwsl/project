@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+
+body, html, div, blockquote, img, label, p, h1, h2, h3, h4, h5, h6, pre, ul, ol,
+li, dl, dt, dd, form, a, fieldset, input, th, td
+{margin: 0; padding: 0; border: 0; outline: none;}
+body {	font-family: "宋体";font-size: 12px;color:#000000;line-height: 20px;}
+td,th {font-family: "宋体";font-size: 12px;color: #000000;}
+A:link {TEXT-DECORATION: none;}
+A:visited {TEXT-DECORATION: none;}
+A:hover {TEXT-DECORATION: underline;}
+ul,li{list-style-type:none;}
+.clearit{clear:both;}
+
+.bei{ width:100%; background:url(../images/logo.png);  overflow:hidden;}
+.head{ width:1000px;margin:0 auto; background-image:url(../images/背景5.jpg); overflow:hidden;}
+.nav{ margin:0 auto; margin-top:180px;}
+.nav ul{ width:900px; height:40px; margin:0 auto; background:url(../images/nav.png)}
+.nav ul li{  width:170px; height:40px;display:block;}
+.nav li a{ text-align:center; line-height:40px; font-size:18px; color:#000; font-weight:bold; display:block; width:160px; height:40px;}
+.nav li a:hover{ background-image:url(../images/2.png);}
+.zi{ width:860px; padding:20px; margin:0 auto; margin-top:20px; background:rgba(255, 255, 255, 0.5); }
+.zi p{ line-height:30px; font-family:"Lucida Console", Monaco, monospace;}
+.tu{ margin-top:10px; width:900px; height:300px;}
+.foot{ width:860px; height:40px; margin:0 auto; margin-top:15px; background:rgba(255, 255, 255, 0.5);}
+.foot p{ text-align:center; line-height:40px;}
+H1{ margin-left:20PX; margin-top:20PX;}
+hr{ width:897px; color:#000; margin-top:2px; height:2px;}
+span{ float:left; width:580px; height:130px;}
+.zi1{ width:860px;padding:20px; margin:0 auto; margin-top:20px; background:rgba(255, 255, 255, 0.5); border-radius:30px;30px;30px;30px; }
+.zi1 p{ line-height:30px; font-family:"Lucida Console", Monaco, monospace;}
+.nav ul li{position: relative;float:left;}
+.nav ul li ul{ width:160px;height:39px;margin-left: -0px; display: none;position: absolute;}
+.nav ul li:hover ul{display: block;}
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
